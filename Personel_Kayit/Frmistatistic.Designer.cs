@@ -32,15 +32,15 @@ namespace Personel_Kayit
             this.label1 = new System.Windows.Forms.Label();
             this.LblToplamPersonel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.LblEvliPersonel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.LblBekarPersonel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.LblSehirSayisi = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.LblToplamMaas = new System.Windows.Forms.Label();
+            this.LblOrtalamaMaas = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -71,15 +71,15 @@ namespace Personel_Kayit
             this.label3.TabIndex = 2;
             this.label3.Text = "Evli Personel Sayısı:";
             // 
-            // label4
+            // LblEvliPersonel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(266, 80);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(23, 26);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "0";
+            this.LblEvliPersonel.AutoSize = true;
+            this.LblEvliPersonel.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblEvliPersonel.Location = new System.Drawing.Point(266, 80);
+            this.LblEvliPersonel.Name = "LblEvliPersonel";
+            this.LblEvliPersonel.Size = new System.Drawing.Size(23, 26);
+            this.LblEvliPersonel.TabIndex = 3;
+            this.LblEvliPersonel.Text = "0";
             // 
             // label5
             // 
@@ -90,15 +90,15 @@ namespace Personel_Kayit
             this.label5.TabIndex = 4;
             this.label5.Text = "Bekar Personel Sayısı:";
             // 
-            // label6
+            // LblBekarPersonel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(266, 126);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(23, 26);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "0";
+            this.LblBekarPersonel.AutoSize = true;
+            this.LblBekarPersonel.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblBekarPersonel.Location = new System.Drawing.Point(266, 126);
+            this.LblBekarPersonel.Name = "LblBekarPersonel";
+            this.LblBekarPersonel.Size = new System.Drawing.Size(23, 26);
+            this.LblBekarPersonel.TabIndex = 5;
+            this.LblBekarPersonel.Text = "0";
             // 
             // label7
             // 
@@ -109,20 +109,20 @@ namespace Personel_Kayit
             this.label7.TabIndex = 6;
             this.label7.Text = "Şehir Sayısı:";
             // 
-            // label8
+            // LblSehirSayisi
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(266, 170);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(23, 26);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "0";
+            this.LblSehirSayisi.AutoSize = true;
+            this.LblSehirSayisi.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblSehirSayisi.Location = new System.Drawing.Point(266, 170);
+            this.LblSehirSayisi.Name = "LblSehirSayisi";
+            this.LblSehirSayisi.Size = new System.Drawing.Size(23, 26);
+            this.LblSehirSayisi.TabIndex = 7;
+            this.LblSehirSayisi.Text = "0";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(120, 215);
+            this.label9.Location = new System.Drawing.Point(120, 213);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(120, 23);
             this.label9.TabIndex = 8;
@@ -137,40 +137,40 @@ namespace Personel_Kayit
             this.label10.TabIndex = 9;
             this.label10.Text = "Ortalama Maaş:";
             // 
-            // label11
+            // LblToplamMaas
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(267, 213);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(23, 26);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "0";
+            this.LblToplamMaas.AutoSize = true;
+            this.LblToplamMaas.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblToplamMaas.Location = new System.Drawing.Point(267, 213);
+            this.LblToplamMaas.Name = "LblToplamMaas";
+            this.LblToplamMaas.Size = new System.Drawing.Size(23, 26);
+            this.LblToplamMaas.TabIndex = 10;
+            this.LblToplamMaas.Text = "0";
             // 
-            // label12
+            // LblOrtalamaMaas
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(267, 250);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(23, 26);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "0";
+            this.LblOrtalamaMaas.AutoSize = true;
+            this.LblOrtalamaMaas.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblOrtalamaMaas.Location = new System.Drawing.Point(267, 250);
+            this.LblOrtalamaMaas.Name = "LblOrtalamaMaas";
+            this.LblOrtalamaMaas.Size = new System.Drawing.Size(23, 26);
+            this.LblOrtalamaMaas.TabIndex = 11;
+            this.LblOrtalamaMaas.Text = "0";
             // 
             // Frmistatistic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(468, 383);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.LblOrtalamaMaas);
+            this.Controls.Add(this.LblToplamMaas);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.LblSehirSayisi);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.LblBekarPersonel);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.LblEvliPersonel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.LblToplamPersonel);
             this.Controls.Add(this.label1);
@@ -189,14 +189,14 @@ namespace Personel_Kayit
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label LblToplamPersonel;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label LblEvliPersonel;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label LblBekarPersonel;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label LblSehirSayisi;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label LblToplamMaas;
+        private System.Windows.Forms.Label LblOrtalamaMaas;
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Personel_Kayit
 {
-    partial class Form1
+    partial class Frm_Personel
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Personel_Kayit
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Personel));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.MskMaas = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -156,6 +156,14 @@ namespace Personel_Kayit
             // CmbSehir
             // 
             this.CmbSehir.FormattingEnabled = true;
+            this.CmbSehir.Items.AddRange(new object[] {
+            "Ankara",
+            "Aydın",
+            "Balıkesir",
+            "Malatya",
+            "İstanbul",
+            "Yalova",
+            "Yozgat"});
             this.CmbSehir.Location = new System.Drawing.Point(185, 149);
             this.CmbSehir.Name = "CmbSehir";
             this.CmbSehir.Size = new System.Drawing.Size(127, 31);
@@ -258,6 +266,7 @@ namespace Personel_Kayit
             this.BtnGrafikler.TabIndex = 6;
             this.BtnGrafikler.Text = "Grafikler";
             this.BtnGrafikler.UseVisualStyleBackColor = true;
+            this.BtnGrafikler.Click += new System.EventHandler(this.BtnGrafikler_Click);
             // 
             // BtnIstatistikler
             // 
@@ -324,7 +333,7 @@ namespace Personel_Kayit
             this.groupBox3.Controls.Add(this.dataGridView1);
             this.groupBox3.Location = new System.Drawing.Point(12, 346);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(973, 196);
+            this.groupBox3.Size = new System.Drawing.Size(754, 196);
             this.groupBox3.TabIndex = 35;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "KAYITLAR";
@@ -345,7 +354,7 @@ namespace Personel_Kayit
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 27);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(967, 166);
+            this.dataGridView1.Size = new System.Drawing.Size(748, 166);
             this.dataGridView1.TabIndex = 30;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -427,7 +436,7 @@ namespace Personel_Kayit
             this.label8.Visible = false;
             this.label8.TextChanged += new System.EventHandler(this.label8_TextChanged);
             // 
-            // Form1
+            // Frm_Personel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -440,7 +449,7 @@ namespace Personel_Kayit
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.Name = "Form1";
+            this.Name = "Frm_Personel";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

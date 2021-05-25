@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,17 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Frm_Personel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Frm_Personel.Designer.cs">
+      <DependentUpon>Frm_Personel.cs</DependentUpon>
     </Compile>
     <Compile Include="Frmistatistic.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frmistatistic.Designer.cs">
       <DependentUpon>Frmistatistic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Grafikler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Grafikler.Designer.cs">
+      <DependentUpon>Frm_Grafikler.cs</DependentUpon>
     </Compile>
     <Compile Include="PersonelVeriTabaniDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -65,11 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Personel.resx">
+      <DependentUpon>Frm_Personel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frmistatistic.resx">
       <DependentUpon>Frmistatistic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Grafikler.resx">
+      <DependentUpon>Frm_Grafikler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

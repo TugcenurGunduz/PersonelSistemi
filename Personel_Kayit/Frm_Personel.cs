@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace Personel_Kayit
 {
-    public partial class Form1 : Form
+    public partial class Frm_Personel : Form
     {
-        public Form1()
+        public Frm_Personel()
         {
             InitializeComponent();
         }
@@ -50,7 +50,8 @@ namespace Personel_Kayit
             komut.Parameters.AddWithValue("@p4", MskMaas.Text);
             komut.Parameters.AddWithValue("@p5", TxtMeslek.Text);
             komut.Parameters.AddWithValue("@p6", label8.Text);
-            komut.ExecuteNonQuery();
+            komut.ExecuteNonQuery(); 
+            //ExecuteNonQuery -> insert, update ve delete işlemleri için sorguyu çalıştırır
             baglanti.Close();
             MessageBox.Show("Personel Eklendi!");
         }
@@ -133,6 +134,12 @@ namespace Personel_Kayit
         {
             Frmistatistic fr = new Frmistatistic();
             fr.Show();
+        }
+
+        private void BtnGrafikler_Click(object sender, EventArgs e)
+        {
+            Frm_Grafikler frg = new Frm_Grafikler();
+            frg.Show();
         }
     }
 }
