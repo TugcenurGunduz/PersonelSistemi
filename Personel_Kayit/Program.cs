@@ -16,7 +16,7 @@ namespace Personel_Kayit
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Personel());
+            Application.Run(new Frm_Giris());
         }
     }
 }

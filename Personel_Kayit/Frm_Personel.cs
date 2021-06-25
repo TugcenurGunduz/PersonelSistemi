@@ -141,5 +141,6 @@ namespace Personel_Kayit
             Frm_Grafikler frg = new Frm_Grafikler();
             frg.Show();
         }
+
     }
 }

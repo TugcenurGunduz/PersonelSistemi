@@ -97,7 +97,7 @@ namespace Personel_Kayit
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(12, 22);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(385, 318);
+            this.groupBox1.Size = new System.Drawing.Size(385, 351);
             this.groupBox1.TabIndex = 222;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PERSONEL KAYIT";
@@ -253,16 +253,16 @@ namespace Personel_Kayit
             this.groupBox2.Controls.Add(this.BtnListele);
             this.groupBox2.Location = new System.Drawing.Point(415, 22);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(351, 318);
+            this.groupBox2.Size = new System.Drawing.Size(351, 351);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "İŞLEMLER";
             // 
             // BtnGrafikler
             // 
-            this.BtnGrafikler.Location = new System.Drawing.Point(110, 276);
+            this.BtnGrafikler.Location = new System.Drawing.Point(109, 286);
             this.BtnGrafikler.Name = "BtnGrafikler";
-            this.BtnGrafikler.Size = new System.Drawing.Size(124, 36);
+            this.BtnGrafikler.Size = new System.Drawing.Size(124, 34);
             this.BtnGrafikler.TabIndex = 6;
             this.BtnGrafikler.Text = "Grafikler";
             this.BtnGrafikler.UseVisualStyleBackColor = true;
@@ -270,9 +270,9 @@ namespace Personel_Kayit
             // 
             // BtnIstatistikler
             // 
-            this.BtnIstatistikler.Location = new System.Drawing.Point(110, 233);
+            this.BtnIstatistikler.Location = new System.Drawing.Point(109, 243);
             this.BtnIstatistikler.Name = "BtnIstatistikler";
-            this.BtnIstatistikler.Size = new System.Drawing.Size(124, 36);
+            this.BtnIstatistikler.Size = new System.Drawing.Size(124, 34);
             this.BtnIstatistikler.TabIndex = 5;
             this.BtnIstatistikler.Text = "İstatistikler";
             this.BtnIstatistikler.UseVisualStyleBackColor = true;
@@ -280,9 +280,9 @@ namespace Personel_Kayit
             // 
             // BtnTemizle
             // 
-            this.BtnTemizle.Location = new System.Drawing.Point(110, 191);
+            this.BtnTemizle.Location = new System.Drawing.Point(109, 201);
             this.BtnTemizle.Name = "BtnTemizle";
-            this.BtnTemizle.Size = new System.Drawing.Size(124, 36);
+            this.BtnTemizle.Size = new System.Drawing.Size(124, 34);
             this.BtnTemizle.TabIndex = 4;
             this.BtnTemizle.Text = "Temizle";
             this.BtnTemizle.UseVisualStyleBackColor = true;
@@ -290,9 +290,9 @@ namespace Personel_Kayit
             // 
             // BtnGuncelle
             // 
-            this.BtnGuncelle.Location = new System.Drawing.Point(110, 149);
+            this.BtnGuncelle.Location = new System.Drawing.Point(109, 159);
             this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(124, 36);
+            this.BtnGuncelle.Size = new System.Drawing.Size(124, 34);
             this.BtnGuncelle.TabIndex = 3;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
@@ -300,9 +300,9 @@ namespace Personel_Kayit
             // 
             // BtnSil
             // 
-            this.BtnSil.Location = new System.Drawing.Point(110, 108);
+            this.BtnSil.Location = new System.Drawing.Point(109, 118);
             this.BtnSil.Name = "BtnSil";
-            this.BtnSil.Size = new System.Drawing.Size(124, 35);
+            this.BtnSil.Size = new System.Drawing.Size(124, 34);
             this.BtnSil.TabIndex = 2;
             this.BtnSil.Text = "Sil";
             this.BtnSil.UseVisualStyleBackColor = true;
@@ -310,9 +310,9 @@ namespace Personel_Kayit
             // 
             // BtnKaydet
             // 
-            this.BtnKaydet.Location = new System.Drawing.Point(110, 70);
+            this.BtnKaydet.Location = new System.Drawing.Point(109, 80);
             this.BtnKaydet.Name = "BtnKaydet";
-            this.BtnKaydet.Size = new System.Drawing.Size(124, 32);
+            this.BtnKaydet.Size = new System.Drawing.Size(124, 34);
             this.BtnKaydet.TabIndex = 1;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.UseVisualStyleBackColor = true;
@@ -320,7 +320,7 @@ namespace Personel_Kayit
             // 
             // BtnListele
             // 
-            this.BtnListele.Location = new System.Drawing.Point(110, 30);
+            this.BtnListele.Location = new System.Drawing.Point(109, 40);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(124, 34);
             this.BtnListele.TabIndex = 0;
@@ -331,9 +331,9 @@ namespace Personel_Kayit
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Location = new System.Drawing.Point(12, 346);
+            this.groupBox3.Location = new System.Drawing.Point(12, 379);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(754, 196);
+            this.groupBox3.Size = new System.Drawing.Size(754, 198);
             this.groupBox3.TabIndex = 35;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "KAYITLAR";
@@ -354,7 +354,7 @@ namespace Personel_Kayit
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 27);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(748, 166);
+            this.dataGridView1.Size = new System.Drawing.Size(748, 168);
             this.dataGridView1.TabIndex = 30;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -441,7 +441,7 @@ namespace Personel_Kayit
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(997, 563);
+            this.ClientSize = new System.Drawing.Size(997, 589);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox3);
